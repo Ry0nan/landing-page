@@ -5,6 +5,16 @@
     padding: 0;
 }
 
+html {
+    height:100%;
+}
+
+body {
+    min-height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
 /* STYLING FOR THE HEADER OF THE PAGE */
 .header {
     background-color: #173e71;
@@ -158,5 +168,49 @@
     text-align: end;
 }
 
+/* STYLING FOR THE SIGN UP BLOCK */
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
+    width: 1200px;
+    height: 180px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+/* STYLING FOR THE SIGN UP BUTTON */
+.sign-up .p {
+    font-size: 32px;
+    font-weight: 900;
+}
 
+/* STYLING FOR THE SIGN UP BUTTON */
+.sign-up-button {
+    font-size: 16px;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 12px;
+    background-color: #377fc1;
+    color: white;
+    border: 2px solid white;
+}
+
+/* THIS IS THE STYLING FOR THE FOOTER OF THE PAGE */
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+}
