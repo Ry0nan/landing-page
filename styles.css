@@ -31,6 +31,11 @@
     background-color: #377fc1;
 }
 
+/* THIS IS THE SIGNUP BAR */
+.signup {
+    display: flex;
+}
+
 /* STYLING FOR THE LEFT SIDE OF THE BLOCK */
 .information-1 {
     justify-content: flex-start;
@@ -125,4 +130,33 @@
     margin: 0;
     margin-top: 15px;
 }
+
+/* STYLING FOR THE QUOTE SECTION */
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 350px;
+}
+
+/* STYLING FOR THE QUOTE TEXT */
+.main-quote {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* STYLING FOR THE -RYO YAMADA SOURCE */
+.said-by {
+    display: block;
+    margin-top: 30px;
+    text-align: end;
+}
+
+
 
